@@ -1,0 +1,41 @@
+.page-home {
+    display: flex; 
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.page-home .video-call {
+    width: 60%;
+}
+
+.page-home img {
+    width: 460px;
+}
+
+.page-home span {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.page-home h1 {
+    font-size: 56px;
+    color: #D6000D;
+}
+
+.page-home article input {
+    width: 290px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #fff;
+    background: #D6000D;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.page-home article {
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 70px;
+}
