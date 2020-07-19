@@ -5,7 +5,7 @@
 
 ### HTML5, CSS3 e FLEXBOX
 
-![your-file](images/file.gif)
+![codar](design/codar.gif)
 
 Link: https://marcianas1l.github.io/codar/
 
