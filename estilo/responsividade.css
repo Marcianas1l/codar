@@ -48,6 +48,12 @@
         text-align: unset;
     }
 
+    .page-home article input {
+        width: 360px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
     .page-home h1 {
         font-size: 70px;
     }
