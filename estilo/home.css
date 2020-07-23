@@ -1,41 +1,43 @@
 .page-home {
     display: flex; 
-    margin-top: 60px;
-    margin-left: 200px;
+    flex-direction: column;
+    margin-top: 40px;
 }
 
 .page-home .video-call {
-    width: 60%;
+    width: 100%;
+    text-align: center;
 }
 
 .page-home img {
-    width: 460px;
+    width: 250px;
+}
+
+.page-home article {
+    width: 100%; 
+    text-align: center;
+    margin-top: 60px;
 }
 
 .page-home span {
     font-weight: 700;
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .page-home h1 {
-    font-size: 56px;
+    font-size: 48px;
     color: #D6000D;
 }
 
 .page-home article input {
-    width: 290px;
+    width: 360px;
     height: 50px;
     border-radius: 10px;
     margin-top: 30px;
     color: #fff;
     background: #D6000D;
     border: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     cursor: pointer;
-}
-.page-home article {
-    width: 50%;
-    margin-left: 100px;
-    margin-top: 70px;
 }
