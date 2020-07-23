@@ -1,13 +1,15 @@
 footer {
-    display: flex;
-    justify-content: space-between;
     color: #fff;
     background: #000;
-    padding: 100px 40px;
+}
+
+footer .codar {
+    width: 100%;
+    text-align: center;
 }
 
 footer div {
-    width: 25%;
+    width: 60%;
     padding: 20px;
 }
 
@@ -16,13 +18,9 @@ footer div p {
     padding: 10px 0;
 }
 
-footer .redes-sociais {
-    text-align: center;
-    
-}
 footer .redes-sociais i {
     font-size: 40px;
-    padding: 10px;
+    padding: 5px;
     color: #D6000D;
 }
 footer .email {
