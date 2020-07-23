@@ -27,19 +27,19 @@ header, .page-home, .servicos, .contact, .depoimentos {
 } 
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
+    text-align: center;
+    
 }
 
 header h1 {
     color: #D6000D;
     font-style: italic;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 nav {
     display: flex;
+    margin-top: 30px;
 }
 
 nav ul {
@@ -48,7 +48,7 @@ nav ul {
 
 nav ul li {
     margin: auto 30px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 nav ul li:hover {
@@ -56,14 +56,5 @@ nav ul li:hover {
 }
 
 nav .login {
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    margin: auto;
-    color: #fff;
-    background: #D6000D;
-    border: none;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
+    display: none;
 }
