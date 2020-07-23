@@ -1,12 +1,11 @@
 .servicos {
+    width: 100%;
     display: flex;
-    margin-top: 150px;
-    margin-left: 200px;
+    flex-direction: column-reverse;
 }
 .servicos .servicos-text {
-    width: 50%;
-    margin-top: 80px;
-    font-size: 25px;
+    margin: 30px auto;
+    font-size: 18px;
 }
 
 .servicos .servicos-text p {
@@ -18,21 +17,24 @@
 }
 
 .servicos .servicos-img {
-    width: 50%;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
 }
 .servicos-img img {
-    width: 460px;
+    width: 250px;
 }
 
 .contact {
-    margin: 30px 0 20px 200px;
+    margin-top: 30px;
     font-size: 20px;
     font-weight: 700;
+    text-align: center;
 }
 .contact #number {
     margin-top: 30px;
     margin-right: 10px;
-    width: 220px;
+    width: 240px;
     padding: 15px;
     border-radius: 10px;
     background: rgb(220, 220, 220);
@@ -44,7 +46,7 @@
     width: 240px;
     padding: 15px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
     color: #fff;
     background: #D6000D;
     border: none;
@@ -55,34 +57,33 @@
 
 .depoimentos {
     width: 100%;
-    display: flex;
     padding: 40px;
     margin-top: 250px;
 }
 
 .depoimentos .depo-1 {
     margin-right: 46px;
+    margin-bottom: 30px;
 }
 .depoimentos .depo-1, .depoimentos .depo-2 {
     background: rgb(220, 220, 220);
-    width: 603px;
-    height: 198px;
+    width: 100%;
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
     display: flex;
-    font-size: 21px;
+    font-size: 16px;
 }
 .depoimentos .div-bola {
-    margin-right: 28px;
+    margin-right: 20px;
 }
 .depoimentos .bola {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 100px;
     background: #D6000D;
 }
 .depoimentos .relato h3 {
     font-weight: 300;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 10px;
 }
